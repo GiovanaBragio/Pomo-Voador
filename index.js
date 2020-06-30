@@ -4,7 +4,7 @@ class Pomo {
         this.y = 0;
         this.baseY =  Math.random() * 650;
         this.el = document.createElement('img');
-        this.el.src = 'imgs/pomo.gif';
+        this.el.src = 'pomo.gif';
         this.el.alt = 'Pomo';
 
         this.node = document.querySelector('#pomos').appendChild(this.el);
